@@ -1,6 +1,6 @@
 
 import java.util.Scanner;
-class Set_Bits
+class Power_of_2
 {
     public static void main(String[] args)
     {
@@ -12,6 +12,12 @@ while(n>0){
     n=n&(n-1);
     count++;
 }
-System.out.println(count);
+if(count==1)
+System.out.println("power of 2");
+else
+System.out.println("not a power of 2");
+}
+}
+System.out.println("mask:"+mask);
 }
 }
