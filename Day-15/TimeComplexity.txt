@@ -1,0 +1,40 @@
+TimeComplexity:
+       TimeComplexity describes  that the amount of  time it takes to run the program or statement.
+
+O(1):
+       The constant amount of time to run the program.It doesn't depends on the size of N.
+
+O(logn):
+      when an algorithm has O(logn) running time,it means  that as the input size grows,the number of operatons grows very slowly.
+
+O(n):
+     When the running time of an algorithm increases linearly with the size of the input.This means that when a functon has iteration that iterates over an input sze of n,it is said
+     to have a time complexity of order n.
+
+O(nlogn):
+     
+     O(nlogn) implies that logn operations will occur n times.
+     
+O(n^2):
+
+     A function with quadratic time complexity has growth rate of n^2.
+      for Example if we input 5 then it has 10 operations.
+
+O(n^3):
+
+    A function with cubic time complexity has growth rate of n^3.
+     for example if we input 2 then it has 8 operations.
+
+O(K^n):
+    It grows in proportion to some factor exponential by the input size.
+      for example ,in O(2^n ) algorithms ,if n=2 then it will run 4 times.
+                                          if n=3 then it will run  8 times.
+
+O(n!):
+    
+    The time complexity is very high in this case.
+     for example,n=5, then it will do (5*4*3*2*1) operations.
+
+    
+
+    
