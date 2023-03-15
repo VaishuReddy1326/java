@@ -1,0 +1,12 @@
+Space Complexity:
+      
+       Space complexity is the amount  of memory  used  by the program to execute and produce the result.
+
+Linear Space Complexity:
+      
+      If the amount of space required by an program is increased with the increase of input value.
+      
+Quadratic space complexity:
+      
+
+       
