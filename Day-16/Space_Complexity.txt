@@ -1,12 +1,14 @@
-Space Complexity:
+Space Complexity O(1):
       
        Space complexity is the amount  of memory  used  by the program to execute and produce the result.
 
-Linear Space Complexity:
+Linear Space Complexity O(n):
       
       If the amount of space required by an program is increased with the increase of input value.
       
-Quadratic space complexity:
+Quadratic space complexity O(n^2):
+      In quadratic space complexity ,if we take integer ,integer has 4 bytes then it takes 4*n*n bytes of memory.
+      so we remove constant then it has O(n^2) space complexity. 
       
 
        
