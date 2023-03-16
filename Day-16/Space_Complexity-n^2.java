@@ -9,8 +9,8 @@ public class Space_Complexity-n^2 {
         while(low<=high){
          int mid=(low+high)/2;
          if(key==mid){
-         System.out.println("element found");
-         flag=true;
+             System.out.println("element found");
+              flag=true;
          else if(key<=mid)
          high=mid-1;
          else if(key>=mid){

@@ -6,7 +6,7 @@ public class LonelyElement {
         int result=arr[0];
         for(int i=1;i<arr.length;i++){
             result=result^arr[i];
-
+            
         }
         System.out.print(result);
     }
