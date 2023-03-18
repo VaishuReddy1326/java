@@ -7,6 +7,7 @@ public class Merge_TwoArrays {
         int k=0;
         for(int i=0;i<=a.length-1;i++){
             c[k] = a[i];
+            c[k ]= b[j];
             k++;
 
         }
