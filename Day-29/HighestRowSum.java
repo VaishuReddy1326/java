@@ -23,7 +23,7 @@ public class HighestRowSum {
     for(int j=0;j<arr[0].length;j++){
         int sum=0;
         for(int i=0;i<arr.length;i++){
-            sum+=arr[i][j];
+            sum+=arr[j][i];
         }
         if(sum>maxsum){
             maxsum=sum;
