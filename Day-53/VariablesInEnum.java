@@ -1,0 +1,29 @@
+
+
+
+enum Cards {
+    SPADE,
+    CLUB;
+    
+    int result;
+      int print() {
+
+        System.out.print("the result is: ");
+         
+        this.result = 22;
+
+        return result;
+
+      }
+}
+public class VariablesInEnum {
+    public static void main(String[] args) {
+
+        var res = Cards.SPADE.print();
+
+        System.out.print(res);
+    }
+}
+
+    
+
