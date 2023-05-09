@@ -1,0 +1,4 @@
+welcome
+
+ this is append method
+ this is write method
