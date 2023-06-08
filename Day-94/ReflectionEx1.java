@@ -9,8 +9,10 @@ public class ReflectionEx1 {
         Field[] fields = m.getClass().getDeclaredFields();
 
         for(Field x : fields)
-            if(x.getName.equals("h"))
+            if(x.getName.equals("h")){
+                x.setAccessible(true);
                 System.out.println(m.setz());
+            }
 
 
 
